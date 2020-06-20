@@ -1,0 +1,130 @@
+.container {
+  max-width: 100%;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  background-color: #f5f763;
+  color: white;
+}
+
+.grilla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  height: 300px;
+}
+
+.grilla .grillas {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.grilla .grillas h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.grilla .grillas p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 20px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#clic1 {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#clic2 {
+  background-color: #0f66d1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#clic3 {
+  background-color: #f07000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.modal {
+  position: absolute;
+  left: 40%;
+  background-color: white;
+  max-width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 37px 18px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 37px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.modal-title {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+
+.modal-title_boton {
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.modal-boton {
+  width: 200px;
+  border: none;
+  background-color: #279ee8;
+  border-radius: 5px;
+  color: white;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 15px;
+}
+
+.oculto {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
